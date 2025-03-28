@@ -8,14 +8,13 @@ import { getFirestore, collection, addDoc, getDocs, updateDoc, deleteDoc, doc } 
 
 // Firebase Configuración
 const firebaseConfig = {
-  apiKey: "AIzaSyAN-E7rUdIUAcT2QCJzCPq_-q4Rw7CAg8Q",
-  authDomain: "actividadbd-957ed.firebaseapp.com",
-  projectId: "actividadbd-957ed",
-  storageBucket: "actividadbd-957ed.firebasestorage.app",
-  messagingSenderId: "414336258150",
-  appId: "1:414336258150:web:5fcd9edf86cba2a65c1da7"
+  apiKey: "AIzaSyBDpln2CXs6na4HKDgrQwxKTTq_RS22pcY",
+  authDomain: "friday-960b4.firebaseapp.com",
+  projectId: "friday-960b4",
+  storageBucket: "friday-960b4.firebasestorage.app",
+  messagingSenderId: "739656367719",
+  appId: "1:739656367719:web:da227df675626a4d65dec2"
 };
-
 
 // Array de banderas y opciones
 const flags = [
