@@ -8,42 +8,42 @@ const firebaseConfig = {
 };
 const flags = [
     {
-        src: "path/to/flag1.png",
+        src: "colombia.png",
         country: "Colombia",
         options: ["Colombia", "Vanuatu", "Mozambique", "Nepal", "Kiribati", "Djibouti", "Malta", "Suriname"]
     },
     {
-        src: "path/to/flag2.png",
+        src: "brasil.png",
         country: "Brazil",
         options: ["Brazil", "Bhutan", "Eswatini", "Togo", "Tuvalu", "Lesotho", "Zambia", "Andorra"]
     },
     {
-        src: "path/to/flag3.png",
+        src: "kiribati.png",
         country: "Kiribati",
         options: ["Kiribati", "Togo", "Tuvalu", "Suriname", "Malta", "Mozambique", "Nepal", "Vanuatu"]
     },
     {
-        src: "path/to/flag4.png",
+        src: "djibouti.png",
         country: "Djibouti",
         options: ["Djibouti", "Colombia", "Lesotho", "Zambia", "Andorra", "Bhutan", "Eswatini", "Brazil"]
     },
     {
-        src: "path/to/flag5.png",
+        src: "nepal.png",
         country: "Nepal",
         options: ["Nepal", "Malta", "Kiribati", "Mozambique", "Vanuatu", "Djibouti", "Tuvalu", "Suriname"]
     },
     {
-        src: "path/to/flag6.png",
+        src: "vanuatu.png",
         country: "Vanuatu",
         options: ["Vanuatu", "Colombia", "Djibouti", "Brazil", "Lesotho", "Bhutan", "Mozambique", "Nepal"]
     },
     {
-        src: "path/to/flag7.png",
+        src: "mozambique.png",
         country: "Mozambique",
         options: ["Mozambique", "Nepal", "Kiribati", "Djibouti", "Vanuatu", "Malta", "Tuvalu", "Brazil"]
     },
     {
-        src: "path/to/flag8.png",
+        src: "tuvalu.png",
         country: "Tuvalu",
         options: ["Tuvalu", "Suriname", "Djibouti", "Lesotho", "Zambia", "Brazil", "Nepal", "Vanuatu"]
     }
