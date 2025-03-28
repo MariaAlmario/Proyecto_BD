@@ -50,6 +50,53 @@ function checkAnswer(selectedOption) {
   } else {
     message.textContent = "Incorrecto, intenta nuevamente.";
   }
+  
+}
+
+
+// Variables principales
+let currentFlagIndex = 0;
+let attempts = 3; // Límite de intentos
+
+function loadFlag() {
+  const flagElement = document.getElementById("flag");
+  const optionsContainer = document.getElementById("options");
+  const currentFlag = flags[currentFlagIndex];
+  
+  flagElement.src = currentFlag.src;
+  optionsContainer.innerHTML = ""; // Limpiar opciones anteriores
+  
+  currentFlag.options.forEach(option => {
+    const button = document.createElement("button");
+    button.textContent = option;
+    button.addEventListener("click", () => checkAnswer(option));
+    optionsContainer.appendChild(button);
+  });
+}
+
+function checkAnswer(selectedOption) {
+  const message = document.getElementById("message");
+  const correctCountry = flags[currentFlagIndex].country;
+
+  if (selectedOption === correctCountry) {
+    message.textContent = "¡Correcto!";
+    currentFlagIndex = (currentFlagIndex + 1) % flags.length;
+    attempts = 3; // Restablecer intentos al acertar
+    loadFlag();
+  } else {
+    attempts--; // Reducir intentos en caso de error
+    if (attempts > 0) {
+      message.textContent = `Incorrecto, intenta nuevamente. Te quedan ${attempts} intentos.`;
+    } else {
+      message.textContent = "¡Se acabaron tus intentos! Fin del juego.";
+      disableGame(); // Llamamos una función para desactivar el juego
+    }
+  }
+}
+
+function disableGame() {
+  const optionsContainer = document.getElementById("options");
+  optionsContainer.innerHTML = ""; // Limpiar opciones para que no haya botones
 }
 
 // Cargar la primera bandera al iniciar
