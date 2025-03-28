@@ -12,6 +12,7 @@ const firebaseConfig = {
   appId: "1:414336258150:web:5fcd9edf86cba2a65c1da7"
 };
 
+
 // Array de banderas y opciones
 const flags = [
   { src: "colombia.png", country: "Colombia", options: ["Colombia", "Vanuatu", "Mozambique", "Nepal", "Kiribati", "Djibouti", "Malta", "Suriname"] },
