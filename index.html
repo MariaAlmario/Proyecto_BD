@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Juego y CRUD con Firestore</title>
+  <title>Juego de Banderas</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -26,17 +26,15 @@
       <p id="message"></p>
     </div>
 
-    <!-- Sección del CRUD -->
-    <h1>CRUD con Firestore</h1>
-    <div>
-      <button onclick="crearProducto('Producto A', 100)">Crear Producto A</button>
-      <button onclick="obtenerProductos()">Obtener Productos</button>
-      <button onclick="actualizarProducto('idDelProducto', 'Producto A Actualizado', 120)">Actualizar Producto</button>
-      <button onclick="eliminarProducto('idDelProducto')">Eliminar Producto</button>
+    <!-- Sección de records -->
+    <div id="records-container">
+      <h2>Records</h2>
+      <ul id="records"></ul>
     </div>
-
-    <script type="module" defer src="app.js"></script>
   </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
+
 
