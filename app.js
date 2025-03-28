@@ -3,7 +3,7 @@ const firebaseConfig = {
   apiKey: "AIzaSyAN-E7rUdIUAcT2QCJzCPq_-q4Rw7CAg8Q",
   authDomain: "actividadbd-957ed.firebaseapp.com",
   projectId: "actividadbd-957ed",
-  storageBucket: "actividadbd-957ed.appspot.com",
+  storageBucket: "actividadbd-957ed.firebasestorage.app",
   messagingSenderId: "414336258150",
   appId: "1:414336258150:web:5fcd9edf86cba2a65c1da7"
 };
