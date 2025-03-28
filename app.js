@@ -101,3 +101,4 @@ function disableGame() {
 
 // Cargar la primera bandera al iniciar
 loadFlag();
+
