@@ -1,3 +1,7 @@
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+
 // Importa Firebase y Firestore desde el CDN de Firebase
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
 import { getFirestore, collection, addDoc, getDocs, updateDoc, deleteDoc, doc } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js";
